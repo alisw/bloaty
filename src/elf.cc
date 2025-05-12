@@ -799,7 +799,7 @@ static bool ElfMachineToCapstone(Elf64_Half e_machine, cs_arch* arch,
       *mode = CS_MODE_LITTLE_ENDIAN;
       return true;
     case EM_AARCH64:
-      *arch = CS_ARCH_ARM64;
+      *arch = CS_ARCH_AARCH64;
       *mode = CS_MODE_ARM;
       return true;
     case EM_MIPS:
